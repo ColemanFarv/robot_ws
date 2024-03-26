@@ -1,0 +1,67 @@
+[0.093s] Invoking command in '/home/LifeBot/robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/LifeBot/robot_ws/build/articubot_one -- -j4 -l4
+[0.211s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.966s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.046s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.476s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.585s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.598s] -- Added test 'lint_cmake' to check CMake code style
+[1.605s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.661s] -- Added test 'xmllint' to check XML markup files
+[1.668s] -- Configuring done
+[1.689s] -- Generating done
+[1.696s] -- Build files have been written to: /home/LifeBot/robot_ws/build/articubot_one
+[1.807s] Invoked command in '/home/LifeBot/robot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/LifeBot/robot_ws/build/articubot_one -- -j4 -l4
+[2.282s] Invoking command in '/home/LifeBot/robot_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/LifeBot/robot_ws/build/articubot_one
+[2.382s] -- Install configuration: ""
+[2.386s] -- Execute custom install script
+[2.390s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[2.396s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[2.399s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[2.400s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[2.413s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[2.417s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[2.422s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/joystick.yaml
+[2.422s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/main.rviz
+[2.423s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/map.rviz
+[2.431s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[2.432s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[2.432s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[2.435s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[2.440s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[2.448s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/camera.xacro
+[2.461s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[2.463s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/face.xacro
+[2.465s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[2.468s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[2.470s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+[2.473s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[2.475s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[2.478s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[2.482s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[2.489s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[2.491s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[2.493s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[2.496s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[2.506s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[2.508s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[2.511s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[2.513s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[2.521s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[2.525s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[2.528s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[2.541s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[2.542s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[2.543s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[2.556s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[2.561s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[2.573s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[2.582s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[2.590s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[2.594s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[2.597s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[2.616s] -- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/package.dsv
+[2.719s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[2.723s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[2.728s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[2.729s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/package.xml
+[2.748s] Invoked command in '/home/LifeBot/robot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/LifeBot/robot_ws/build/articubot_one

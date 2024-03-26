@@ -1,0 +1,2 @@
+Invoking command in '/home/LifeBot/robot_ws/build/serial': /usr/bin/cmake /home/LifeBot/robot_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/LifeBot/robot_ws/install/serial
+Invoked command in '/home/LifeBot/robot_ws/build/serial' returned '1': /usr/bin/cmake /home/LifeBot/robot_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/LifeBot/robot_ws/install/serial

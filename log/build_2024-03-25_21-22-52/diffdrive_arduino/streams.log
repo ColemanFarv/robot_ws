@@ -1,0 +1,64 @@
+[0.093s] Invoking command in '/home/LifeBot/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/LifeBot/robot_ws/build/diffdrive_arduino -- -j4 -l4
+[0.207s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.957s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.037s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.230s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.247s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.283s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.469s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.664s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.673s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.813s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.849s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.985s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.036s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.084s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.273s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.819s] -- Configuring done
+[8.025s] -- Generating done
+[8.038s] -- Build files have been written to: /home/LifeBot/robot_ws/build/diffdrive_arduino
+[8.407s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[26.162s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[27.084s] [100%] Built target diffdrive_arduino
+[27.128s] Invoked command in '/home/LifeBot/robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/LifeBot/robot_ws/build/diffdrive_arduino -- -j4 -l4
+[27.270s] Invoking command in '/home/LifeBot/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/LifeBot/robot_ws/build/diffdrive_arduino
+[27.296s] -- Install configuration: ""
+[27.297s] -- Execute custom install script
+[27.299s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml
+[27.334s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp
+[27.366s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp
+[27.397s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h
+[27.431s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp
+[27.464s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py
+[27.498s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro
+[27.532s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro
+[27.565s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro
+[27.598s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro
+[27.630s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz
+[27.664s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz
+[27.696s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py
+[27.732s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml
+[27.766s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[27.767s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[27.771s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[27.772s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[27.774s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[27.775s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[27.776s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[27.777s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[27.778s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[27.779s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[27.780s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[27.782s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[27.782s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[27.814s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[27.815s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[27.816s] -- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[27.851s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.852s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[27.852s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[27.853s] -- Up-to-date symlink: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[27.854s] -- Installing: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake
+[27.856s] -- Installing: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake
+[27.865s] Invoked command in '/home/LifeBot/robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/LifeBot/robot_ws/build/diffdrive_arduino

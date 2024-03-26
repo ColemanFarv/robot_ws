@@ -1,0 +1,1062 @@
+[0.000000] (-) TimerEvent: {}
+[0.001521] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.002885] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.003796] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/LifeBot/robot_ws/install/serial')])}
+[0.004729] (serial) JobStarted: {'identifier': 'serial'}
+[0.040070] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.071455] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.075215] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/LifeBot/robot_ws/src/serial', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/LifeBot/robot_ws/install/serial'], 'cwd': '/home/LifeBot/robot_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'LifeBot'), ('SSH_CLIENT', '192.168.2.151 55650 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/LifeBot'), ('OLDPWD', '/home/LifeBot'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fda3fe0b-e177-4d56-b792-efafe00b4734.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/LifeBot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'LifeBot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-405d37a03d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/LifeBot/robot_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.151 55650 192.168.2.154 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098841] (-) TimerEvent: {}
+[0.102921] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.106023] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/home/LifeBot/robot_ws/src/articubot_one', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/LifeBot/robot_ws/install/articubot_one'], 'cwd': '/home/LifeBot/robot_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'LifeBot'), ('SSH_CLIENT', '192.168.2.151 55650 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/LifeBot'), ('OLDPWD', '/home/LifeBot'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fda3fe0b-e177-4d56-b792-efafe00b4734.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/LifeBot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'LifeBot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-405d37a03d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/LifeBot/robot_ws/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.151 55650 192.168.2.154 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.177123] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.192704] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199093] (-) TimerEvent: {}
+[0.300056] (-) TimerEvent: {}
+[0.401052] (-) TimerEvent: {}
+[0.502783] (-) TimerEvent: {}
+[0.606782] (-) TimerEvent: {}
+[0.712125] (-) TimerEvent: {}
+[0.813249] (-) TimerEvent: {}
+[0.914843] (-) TimerEvent: {}
+[1.017545] (-) TimerEvent: {}
+[1.121318] (-) TimerEvent: {}
+[1.209759] (articubot_one) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.221506] (-) TimerEvent: {}
+[1.263179] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.321762] (-) TimerEvent: {}
+[1.422749] (-) TimerEvent: {}
+[1.523797] (-) TimerEvent: {}
+[1.617820] (articubot_one) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.624107] (-) TimerEvent: {}
+[1.660204] (serial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.724328] (-) TimerEvent: {}
+[1.825645] (-) TimerEvent: {}
+[1.927227] (-) TimerEvent: {}
+[1.929251] (articubot_one) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.986434] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.027436] (-) TimerEvent: {}
+[2.049089] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[2.074535] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.090060] (serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.127635] (-) TimerEvent: {}
+[2.229318] (-) TimerEvent: {}
+[2.332343] (-) TimerEvent: {}
+[2.436247] (-) TimerEvent: {}
+[2.537626] (serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.538400] (-) TimerEvent: {}
+[2.550371] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.574604] (articubot_one) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.638657] (-) TimerEvent: {}
+[2.674740] (articubot_one) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.688597] (articubot_one) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.696777] (articubot_one) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.738875] (-) TimerEvent: {}
+[2.750089] (articubot_one) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.760714] (articubot_one) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.785285] (articubot_one) StdoutLine: {'line': b'-- Generating done\n'}
+[2.791345] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /home/LifeBot/robot_ws/build/articubot_one\n'}
+[2.812951] (articubot_one) CommandEnded: {'returncode': 0}
+[2.814945] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[2.815386] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/LifeBot/robot_ws/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/LifeBot/robot_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'LifeBot'), ('SSH_CLIENT', '192.168.2.151 55650 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/LifeBot'), ('OLDPWD', '/home/LifeBot'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fda3fe0b-e177-4d56-b792-efafe00b4734.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/LifeBot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'LifeBot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-405d37a03d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/LifeBot/robot_ws/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.151 55650 192.168.2.154 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.839151] (-) TimerEvent: {}
+[2.940328] (-) TimerEvent: {}
+[3.000876] (articubot_one) CommandEnded: {'returncode': 0}
+[3.037146] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.040600] (-) TimerEvent: {}
+[3.044314] (serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.140892] (-) TimerEvent: {}
+[3.145374] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[3.189891] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/LifeBot/robot_ws/build/articubot_one'], 'cwd': '/home/LifeBot/robot_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'LifeBot'), ('SSH_CLIENT', '192.168.2.151 55650 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/LifeBot'), ('OLDPWD', '/home/LifeBot'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fda3fe0b-e177-4d56-b792-efafe00b4734.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/LifeBot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'LifeBot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-405d37a03d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/LifeBot/robot_ws/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.151 55650 192.168.2.154 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.224561] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.230458] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.241098] (-) TimerEvent: {}
+[3.242606] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[3.284381] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[3.322070] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[3.341298] (-) TimerEvent: {}
+[3.365058] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[3.401765] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[3.442162] (-) TimerEvent: {}
+[3.454043] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[3.523878] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[3.533858] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.542395] (-) TimerEvent: {}
+[3.601131] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[3.638927] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[3.642616] (-) TimerEvent: {}
+[3.677212] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[3.721052] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[3.732831] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[3.742880] (-) TimerEvent: {}
+[3.745385] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/LifeBot/robot_ws/build/serial\n'}
+[3.773492] (serial) CommandEnded: {'returncode': 0}
+[3.777248] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[3.777589] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/LifeBot/robot_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/LifeBot/robot_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'LifeBot'), ('SSH_CLIENT', '192.168.2.151 55650 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/LifeBot'), ('OLDPWD', '/home/LifeBot'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fda3fe0b-e177-4d56-b792-efafe00b4734.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/LifeBot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'LifeBot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-405d37a03d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/LifeBot/robot_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.151 55650 192.168.2.154 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.791342] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[3.842156] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[3.843085] (-) TimerEvent: {}
+[3.889228] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[3.941658] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[3.943939] (-) TimerEvent: {}
+[3.997571] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[4.041708] (serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[4.044205] (-) TimerEvent: {}
+[4.064221] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[4.081821] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[4.087801] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[4.088742] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[4.144454] (-) TimerEvent: {}
+[4.177009] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[4.244685] (-) TimerEvent: {}
+[4.283389] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[4.344941] (-) TimerEvent: {}
+[4.363792] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[4.440374] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[4.445201] (-) TimerEvent: {}
+[4.520776] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[4.545459] (-) TimerEvent: {}
+[4.613070] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[4.645703] (-) TimerEvent: {}
+[4.704754] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[4.746033] (-) TimerEvent: {}
+[4.829057] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[4.846276] (-) TimerEvent: {}
+[4.935103] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[4.946683] (-) TimerEvent: {}
+[5.045308] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[5.046879] (-) TimerEvent: {}
+[5.147966] (-) TimerEvent: {}
+[5.151241] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[5.248203] (-) TimerEvent: {}
+[5.285759] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[5.348596] (-) TimerEvent: {}
+[5.419191] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[5.448963] (-) TimerEvent: {}
+[5.546107] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[5.549252] (-) TimerEvent: {}
+[5.633528] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[5.649450] (-) TimerEvent: {}
+[5.699788] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[5.749762] (-) TimerEvent: {}
+[5.819846] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[5.850063] (-) TimerEvent: {}
+[5.910338] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[5.950383] (-) TimerEvent: {}
+[6.051433] (-) TimerEvent: {}
+[6.063713] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[6.147297] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[6.151712] (-) TimerEvent: {}
+[6.252749] (-) TimerEvent: {}
+[6.279729] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[6.353020] (-) TimerEvent: {}
+[6.361301] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[6.453300] (-) TimerEvent: {}
+[6.483702] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[6.553618] (-) TimerEvent: {}
+[6.654815] (-) TimerEvent: {}
+[6.668411] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[6.755161] (-) TimerEvent: {}
+[6.779865] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[6.855422] (-) TimerEvent: {}
+[6.873476] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[6.955648] (-) TimerEvent: {}
+[7.018577] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[7.055905] (-) TimerEvent: {}
+[7.120752] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[7.156198] (-) TimerEvent: {}
+[7.258426] (-) TimerEvent: {}
+[7.290768] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[7.358688] (-) TimerEvent: {}
+[7.408782] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[7.458947] (-) TimerEvent: {}
+[7.513658] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[7.559216] (-) TimerEvent: {}
+[7.606220] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[7.659480] (-) TimerEvent: {}
+[7.722307] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[7.759697] (-) TimerEvent: {}
+[7.791198] (articubot_one) CommandEnded: {'returncode': 0}
+[7.859957] (-) TimerEvent: {}
+[7.961171] (-) TimerEvent: {}
+[8.068635] (-) TimerEvent: {}
+[8.169747] (-) TimerEvent: {}
+[8.270866] (-) TimerEvent: {}
+[8.372021] (-) TimerEvent: {}
+[8.474220] (-) TimerEvent: {}
+[8.576309] (-) TimerEvent: {}
+[8.679359] (-) TimerEvent: {}
+[8.784446] (-) TimerEvent: {}
+[8.887257] (-) TimerEvent: {}
+[8.964642] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[8.987542] (-) TimerEvent: {}
+[9.088803] (-) TimerEvent: {}
+[9.190748] (-) TimerEvent: {}
+[9.293153] (-) TimerEvent: {}
+[9.394614] (-) TimerEvent: {}
+[9.496013] (-) TimerEvent: {}
+[9.599416] (-) TimerEvent: {}
+[9.700866] (-) TimerEvent: {}
+[9.802270] (-) TimerEvent: {}
+[9.903427] (-) TimerEvent: {}
+[10.005258] (-) TimerEvent: {}
+[10.107932] (-) TimerEvent: {}
+[10.211889] (-) TimerEvent: {}
+[10.314261] (-) TimerEvent: {}
+[10.415505] (-) TimerEvent: {}
+[10.517889] (-) TimerEvent: {}
+[10.619087] (-) TimerEvent: {}
+[10.716043] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[10.719334] (-) TimerEvent: {}
+[10.821505] (-) TimerEvent: {}
+[10.924168] (-) TimerEvent: {}
+[11.026569] (-) TimerEvent: {}
+[11.129579] (-) TimerEvent: {}
+[11.232277] (-) TimerEvent: {}
+[11.336176] (-) TimerEvent: {}
+[11.438970] (-) TimerEvent: {}
+[11.542527] (-) TimerEvent: {}
+[11.644502] (-) TimerEvent: {}
+[11.747843] (-) TimerEvent: {}
+[11.851075] (-) TimerEvent: {}
+[11.952349] (-) TimerEvent: {}
+[12.058452] (-) TimerEvent: {}
+[12.167292] (-) TimerEvent: {}
+[12.270304] (-) TimerEvent: {}
+[12.374917] (-) TimerEvent: {}
+[12.478308] (-) TimerEvent: {}
+[12.581557] (-) TimerEvent: {}
+[12.685473] (-) TimerEvent: {}
+[12.790050] (-) TimerEvent: {}
+[12.894878] (-) TimerEvent: {}
+[12.999286] (-) TimerEvent: {}
+[13.103882] (-) TimerEvent: {}
+[13.208010] (-) TimerEvent: {}
+[13.311986] (-) TimerEvent: {}
+[13.417444] (-) TimerEvent: {}
+[13.523316] (-) TimerEvent: {}
+[13.627506] (-) TimerEvent: {}
+[13.730943] (-) TimerEvent: {}
+[13.833604] (-) TimerEvent: {}
+[13.936514] (-) TimerEvent: {}
+[14.039795] (-) TimerEvent: {}
+[14.143841] (-) TimerEvent: {}
+[14.246587] (-) TimerEvent: {}
+[14.350499] (-) TimerEvent: {}
+[14.455157] (-) TimerEvent: {}
+[14.558390] (-) TimerEvent: {}
+[14.662387] (-) TimerEvent: {}
+[14.765549] (-) TimerEvent: {}
+[14.869379] (-) TimerEvent: {}
+[14.972292] (-) TimerEvent: {}
+[15.074652] (-) TimerEvent: {}
+[15.177181] (-) TimerEvent: {}
+[15.280834] (-) TimerEvent: {}
+[15.384524] (-) TimerEvent: {}
+[15.488036] (-) TimerEvent: {}
+[15.591699] (-) TimerEvent: {}
+[15.695530] (-) TimerEvent: {}
+[15.796630] (-) TimerEvent: {}
+[15.900736] (-) TimerEvent: {}
+[16.002015] (-) TimerEvent: {}
+[16.103247] (-) TimerEvent: {}
+[16.204425] (-) TimerEvent: {}
+[16.305562] (-) TimerEvent: {}
+[16.331768] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[16.405861] (-) TimerEvent: {}
+[16.508507] (-) TimerEvent: {}
+[16.528443] (serial) StdoutLine: {'line': b'[ 42%] Built target gtest_main\n'}
+[16.608795] (-) TimerEvent: {}
+[16.712252] (-) TimerEvent: {}
+[16.815236] (-) TimerEvent: {}
+[16.916312] (-) TimerEvent: {}
+[16.961941] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[17.016587] (-) TimerEvent: {}
+[17.117781] (-) TimerEvent: {}
+[17.218883] (-) TimerEvent: {}
+[17.246325] (serial) StdoutLine: {'line': b'[ 50%] Built target serial\n'}
+[17.319517] (-) TimerEvent: {}
+[17.360489] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[17.419790] (-) TimerEvent: {}
+[17.522778] (-) TimerEvent: {}
+[17.628453] (-) TimerEvent: {}
+[17.731627] (-) TimerEvent: {}
+[17.834040] (-) TimerEvent: {}
+[17.936271] (-) TimerEvent: {}
+[18.039068] (-) TimerEvent: {}
+[18.142820] (-) TimerEvent: {}
+[18.245601] (-) TimerEvent: {}
+[18.348321] (-) TimerEvent: {}
+[18.451198] (-) TimerEvent: {}
+[18.553798] (-) TimerEvent: {}
+[18.657237] (-) TimerEvent: {}
+[18.760784] (-) TimerEvent: {}
+[18.863910] (-) TimerEvent: {}
+[18.967776] (-) TimerEvent: {}
+[19.070361] (-) TimerEvent: {}
+[19.173721] (-) TimerEvent: {}
+[19.276877] (-) TimerEvent: {}
+[19.341412] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[19.377114] (-) TimerEvent: {}
+[19.479185] (-) TimerEvent: {}
+[19.584593] (-) TimerEvent: {}
+[19.688553] (-) TimerEvent: {}
+[19.745059] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[19.788810] (-) TimerEvent: {}
+[19.890559] (-) TimerEvent: {}
+[19.992384] (-) TimerEvent: {}
+[20.095056] (-) TimerEvent: {}
+[20.198228] (-) TimerEvent: {}
+[20.302098] (-) TimerEvent: {}
+[20.405049] (-) TimerEvent: {}
+[20.507968] (-) TimerEvent: {}
+[20.612489] (-) TimerEvent: {}
+[20.714417] (-) TimerEvent: {}
+[20.815430] (-) TimerEvent: {}
+[20.916428] (-) TimerEvent: {}
+[21.017475] (-) TimerEvent: {}
+[21.118441] (-) TimerEvent: {}
+[21.220303] (-) TimerEvent: {}
+[21.321296] (-) TimerEvent: {}
+[21.423319] (-) TimerEvent: {}
+[21.524383] (-) TimerEvent: {}
+[21.626544] (-) TimerEvent: {}
+[21.729094] (-) TimerEvent: {}
+[21.831789] (-) TimerEvent: {}
+[21.934171] (-) TimerEvent: {}
+[22.037393] (-) TimerEvent: {}
+[22.139395] (-) TimerEvent: {}
+[22.241463] (-) TimerEvent: {}
+[22.342633] (-) TimerEvent: {}
+[22.443707] (-) TimerEvent: {}
+[22.544747] (-) TimerEvent: {}
+[22.646648] (-) TimerEvent: {}
+[22.748697] (-) TimerEvent: {}
+[22.850838] (-) TimerEvent: {}
+[22.952813] (-) TimerEvent: {}
+[23.053998] (-) TimerEvent: {}
+[23.155053] (-) TimerEvent: {}
+[23.256623] (-) TimerEvent: {}
+[23.357662] (-) TimerEvent: {}
+[23.459171] (-) TimerEvent: {}
+[23.561111] (-) TimerEvent: {}
+[23.662107] (-) TimerEvent: {}
+[23.763836] (-) TimerEvent: {}
+[23.864942] (-) TimerEvent: {}
+[23.966072] (-) TimerEvent: {}
+[24.067194] (-) TimerEvent: {}
+[24.168338] (-) TimerEvent: {}
+[24.270970] (-) TimerEvent: {}
+[24.373030] (-) TimerEvent: {}
+[24.474630] (-) TimerEvent: {}
+[24.576217] (-) TimerEvent: {}
+[24.677359] (-) TimerEvent: {}
+[24.778478] (-) TimerEvent: {}
+[24.879589] (-) TimerEvent: {}
+[24.980673] (-) TimerEvent: {}
+[25.081718] (-) TimerEvent: {}
+[25.183402] (-) TimerEvent: {}
+[25.284438] (-) TimerEvent: {}
+[25.386455] (-) TimerEvent: {}
+[25.488356] (-) TimerEvent: {}
+[25.590303] (-) TimerEvent: {}
+[25.692237] (-) TimerEvent: {}
+[25.793686] (-) TimerEvent: {}
+[25.895231] (-) TimerEvent: {}
+[25.996704] (-) TimerEvent: {}
+[26.098158] (-) TimerEvent: {}
+[26.199672] (-) TimerEvent: {}
+[26.301187] (-) TimerEvent: {}
+[26.402731] (-) TimerEvent: {}
+[26.504487] (-) TimerEvent: {}
+[26.606162] (-) TimerEvent: {}
+[26.707104] (-) TimerEvent: {}
+[26.809157] (-) TimerEvent: {}
+[26.910117] (-) TimerEvent: {}
+[27.011125] (-) TimerEvent: {}
+[27.113231] (-) TimerEvent: {}
+[27.215115] (-) TimerEvent: {}
+[27.316653] (-) TimerEvent: {}
+[27.418197] (-) TimerEvent: {}
+[27.520121] (-) TimerEvent: {}
+[27.621575] (-) TimerEvent: {}
+[27.723487] (-) TimerEvent: {}
+[27.827727] (-) TimerEvent: {}
+[27.928906] (-) TimerEvent: {}
+[27.989148] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[28.029105] (-) TimerEvent: {}
+[28.129997] (-) TimerEvent: {}
+[28.230755] (-) TimerEvent: {}
+[28.332378] (-) TimerEvent: {}
+[28.433520] (-) TimerEvent: {}
+[28.534632] (-) TimerEvent: {}
+[28.576023] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[28.634864] (-) TimerEvent: {}
+[28.667958] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[28.675379] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[28.735184] (-) TimerEvent: {}
+[28.837038] (-) TimerEvent: {}
+[28.938715] (-) TimerEvent: {}
+[29.040627] (-) TimerEvent: {}
+[29.142960] (-) TimerEvent: {}
+[29.244785] (-) TimerEvent: {}
+[29.346756] (-) TimerEvent: {}
+[29.448752] (-) TimerEvent: {}
+[29.550824] (-) TimerEvent: {}
+[29.652784] (-) TimerEvent: {}
+[29.754420] (-) TimerEvent: {}
+[29.856086] (-) TimerEvent: {}
+[29.957820] (-) TimerEvent: {}
+[30.060010] (-) TimerEvent: {}
+[30.161638] (-) TimerEvent: {}
+[30.264686] (-) TimerEvent: {}
+[30.368651] (-) TimerEvent: {}
+[30.472002] (-) TimerEvent: {}
+[30.575615] (-) TimerEvent: {}
+[30.678332] (-) TimerEvent: {}
+[30.781644] (-) TimerEvent: {}
+[30.885175] (-) TimerEvent: {}
+[30.988949] (-) TimerEvent: {}
+[31.092570] (-) TimerEvent: {}
+[31.195239] (-) TimerEvent: {}
+[31.298703] (-) TimerEvent: {}
+[31.402029] (-) TimerEvent: {}
+[31.505834] (-) TimerEvent: {}
+[31.618467] (-) TimerEvent: {}
+[31.721344] (-) TimerEvent: {}
+[31.825135] (-) TimerEvent: {}
+[31.929062] (-) TimerEvent: {}
+[32.033719] (-) TimerEvent: {}
+[32.139388] (-) TimerEvent: {}
+[32.245237] (-) TimerEvent: {}
+[32.351386] (-) TimerEvent: {}
+[32.455303] (-) TimerEvent: {}
+[32.561169] (-) TimerEvent: {}
+[32.667337] (-) TimerEvent: {}
+[32.773551] (-) TimerEvent: {}
+[32.879501] (-) TimerEvent: {}
+[32.985340] (-) TimerEvent: {}
+[33.091496] (-) TimerEvent: {}
+[33.197517] (-) TimerEvent: {}
+[33.303596] (-) TimerEvent: {}
+[33.409564] (-) TimerEvent: {}
+[33.514811] (-) TimerEvent: {}
+[33.619401] (-) TimerEvent: {}
+[33.723976] (-) TimerEvent: {}
+[33.829742] (-) TimerEvent: {}
+[33.935969] (-) TimerEvent: {}
+[34.042170] (-) TimerEvent: {}
+[34.148328] (-) TimerEvent: {}
+[34.254118] (-) TimerEvent: {}
+[34.361634] (-) TimerEvent: {}
+[34.470005] (-) TimerEvent: {}
+[34.571141] (-) TimerEvent: {}
+[34.673210] (-) TimerEvent: {}
+[34.779119] (-) TimerEvent: {}
+[34.882173] (-) TimerEvent: {}
+[34.986268] (-) TimerEvent: {}
+[35.090311] (-) TimerEvent: {}
+[35.193657] (-) TimerEvent: {}
+[35.298244] (-) TimerEvent: {}
+[35.401305] (-) TimerEvent: {}
+[35.504724] (-) TimerEvent: {}
+[35.607668] (-) TimerEvent: {}
+[35.710319] (-) TimerEvent: {}
+[35.814752] (-) TimerEvent: {}
+[35.917997] (-) TimerEvent: {}
+[36.022093] (-) TimerEvent: {}
+[36.126804] (-) TimerEvent: {}
+[36.229862] (-) TimerEvent: {}
+[36.321504] (serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[36.322745] (serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/LifeBot/robot_ws/src/serial/tests/unix_serial_tests.cc:23\x1b[m\x1b[K:\n'}
+[36.323527] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[36.324212] (serial) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[36.324760] (serial) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[36.330110] (-) TimerEvent: {}
+[36.431209] (-) TimerEvent: {}
+[36.500971] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[36.531452] (-) TimerEvent: {}
+[36.646962] (-) TimerEvent: {}
+[36.748225] (-) TimerEvent: {}
+[36.852165] (-) TimerEvent: {}
+[36.954634] (-) TimerEvent: {}
+[37.059249] (-) TimerEvent: {}
+[37.162512] (-) TimerEvent: {}
+[37.264179] (-) TimerEvent: {}
+[37.291670] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[37.364432] (-) TimerEvent: {}
+[37.466217] (-) TimerEvent: {}
+[37.567896] (-) TimerEvent: {}
+[37.625996] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[37.668096] (-) TimerEvent: {}
+[37.769838] (-) TimerEvent: {}
+[37.871451] (-) TimerEvent: {}
+[37.973909] (-) TimerEvent: {}
+[38.075569] (-) TimerEvent: {}
+[38.177269] (-) TimerEvent: {}
+[38.252411] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[38.277506] (-) TimerEvent: {}
+[38.298152] (serial) CommandEnded: {'returncode': 0}
+[38.377765] (-) TimerEvent: {}
+[38.476333] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[38.477566] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/LifeBot/robot_ws/build/serial'], 'cwd': '/home/LifeBot/robot_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'LifeBot'), ('SSH_CLIENT', '192.168.2.151 55650 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/LifeBot'), ('OLDPWD', '/home/LifeBot'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fda3fe0b-e177-4d56-b792-efafe00b4734.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/LifeBot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'LifeBot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-405d37a03d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/LifeBot/robot_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.151 55650 192.168.2.154 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[38.485932] (-) TimerEvent: {}
+[38.512942] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.517294] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[38.521271] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/lib/libserial.a\n'}
+[38.555703] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/include/serial/serial.h\n'}
+[38.586149] (-) TimerEvent: {}
+[38.587606] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/include/serial/v8stdint.h\n'}
+[38.624453] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[38.656996] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[38.686422] (-) TimerEvent: {}
+[38.692300] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[38.725297] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[38.757328] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[38.786697] (-) TimerEvent: {}
+[38.790233] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[38.824094] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/environment/path.sh\n'}
+[38.856616] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/environment/path.dsv\n'}
+[38.886950] (-) TimerEvent: {}
+[38.895709] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/local_setup.bash\n'}
+[38.927743] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/local_setup.sh\n'}
+[38.961202] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/local_setup.zsh\n'}
+[38.987202] (-) TimerEvent: {}
+[38.994863] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/local_setup.dsv\n'}
+[39.029824] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/package.dsv\n'}
+[39.062823] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[39.087404] (-) TimerEvent: {}
+[39.097361] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[39.131508] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[39.164420] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[39.187630] (-) TimerEvent: {}
+[39.197166] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[39.230513] (serial) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/serial/share/serial/package.xml\n'}
+[39.268933] (serial) CommandEnded: {'returncode': 0}
+[39.288165] (-) TimerEvent: {}
+[39.390365] (-) TimerEvent: {}
+[39.492489] (-) TimerEvent: {}
+[39.540861] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[39.544288] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[39.585788] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[39.587338] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/LifeBot/robot_ws/src/diffdrive_arduino', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/LifeBot/robot_ws/install/diffdrive_arduino'], 'cwd': '/home/LifeBot/robot_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'LifeBot'), ('SSH_CLIENT', '192.168.2.151 55650 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/LifeBot/robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/LifeBot'), ('OLDPWD', '/home/LifeBot'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fda3fe0b-e177-4d56-b792-efafe00b4734.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/LifeBot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'LifeBot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-405d37a03d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/LifeBot/robot_ws/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/LifeBot/robot_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.151 55650 192.168.2.154 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/LifeBot/robot_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[39.596125] (-) TimerEvent: {}
+[39.698212] (-) TimerEvent: {}
+[39.800455] (-) TimerEvent: {}
+[39.884025] (diffdrive_arduino) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[39.900652] (-) TimerEvent: {}
+[40.002361] (-) TimerEvent: {}
+[40.105011] (-) TimerEvent: {}
+[40.194743] (diffdrive_arduino) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[40.205229] (-) TimerEvent: {}
+[40.230444] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[40.305443] (-) TimerEvent: {}
+[40.406395] (-) TimerEvent: {}
+[40.508029] (-) TimerEvent: {}
+[40.613223] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[40.613782] (-) TimerEvent: {}
+[40.644152] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[40.645304] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[40.647022] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[40.660411] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[40.714052] (-) TimerEvent: {}
+[40.816122] (-) TimerEvent: {}
+[40.917080] (-) TimerEvent: {}
+[41.018224] (-) TimerEvent: {}
+[41.028395] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[41.060607] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[41.061979] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[41.064841] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[41.092874] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[41.118431] (-) TimerEvent: {}
+[41.219878] (-) TimerEvent: {}
+[41.321402] (-) TimerEvent: {}
+[41.422873] (-) TimerEvent: {}
+[41.524795] (-) TimerEvent: {}
+[41.626414] (-) TimerEvent: {}
+[41.727875] (-) TimerEvent: {}
+[41.829000] (-) TimerEvent: {}
+[41.930502] (-) TimerEvent: {}
+[41.979195] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[42.030728] (-) TimerEvent: {}
+[42.132802] (-) TimerEvent: {}
+[42.233673] (-) TimerEvent: {}
+[42.334839] (-) TimerEvent: {}
+[42.380209] (diffdrive_arduino) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[42.435780] (-) TimerEvent: {}
+[42.536785] (-) TimerEvent: {}
+[42.637847] (-) TimerEvent: {}
+[42.714350] (diffdrive_arduino) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/LifeBot/robot_ws/install/serial/share/serial/cmake)\n'}
+[42.738106] (-) TimerEvent: {}
+[42.744236] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[42.838352] (-) TimerEvent: {}
+[42.939430] (-) TimerEvent: {}
+[43.040485] (-) TimerEvent: {}
+[43.135022] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[43.140682] (-) TimerEvent: {}
+[43.187737] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[43.240896] (-) TimerEvent: {}
+[43.260251] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[43.341135] (-) TimerEvent: {}
+[43.361427] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[43.441359] (-) TimerEvent: {}
+[43.506942] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[43.541693] (-) TimerEvent: {}
+[43.644743] (-) TimerEvent: {}
+[43.746646] (-) TimerEvent: {}
+[43.848789] (-) TimerEvent: {}
+[43.949784] (-) TimerEvent: {}
+[44.050823] (-) TimerEvent: {}
+[44.151868] (-) TimerEvent: {}
+[44.252874] (-) TimerEvent: {}
+[44.353826] (-) TimerEvent: {}
+[44.454745] (-) TimerEvent: {}
+[44.555716] (-) TimerEvent: {}
+[44.657138] (-) TimerEvent: {}
+[44.758705] (-) TimerEvent: {}
+[44.860203] (-) TimerEvent: {}
+[44.961621] (-) TimerEvent: {}
+[45.063192] (-) TimerEvent: {}
+[45.164689] (-) TimerEvent: {}
+[45.266250] (-) TimerEvent: {}
+[45.367903] (-) TimerEvent: {}
+[45.469411] (-) TimerEvent: {}
+[45.570901] (-) TimerEvent: {}
+[45.672756] (-) TimerEvent: {}
+[45.774804] (-) TimerEvent: {}
+[45.876555] (-) TimerEvent: {}
+[45.977871] (-) TimerEvent: {}
+[46.079790] (-) TimerEvent: {}
+[46.181610] (-) TimerEvent: {}
+[46.282918] (-) TimerEvent: {}
+[46.384368] (-) TimerEvent: {}
+[46.485728] (-) TimerEvent: {}
+[46.587156] (-) TimerEvent: {}
+[46.688555] (-) TimerEvent: {}
+[46.790262] (-) TimerEvent: {}
+[46.808339] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[46.834962] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[46.890568] (-) TimerEvent: {}
+[46.991793] (-) TimerEvent: {}
+[47.082869] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[47.092059] (-) TimerEvent: {}
+[47.193110] (-) TimerEvent: {}
+[47.295614] (-) TimerEvent: {}
+[47.314015] (diffdrive_arduino) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[47.329806] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[47.395821] (-) TimerEvent: {}
+[47.399032] (diffdrive_arduino) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[47.439211] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[47.473206] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[47.496106] (-) TimerEvent: {}
+[47.511452] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[47.596346] (-) TimerEvent: {}
+[47.602600] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[47.696564] (-) TimerEvent: {}
+[47.798722] (-) TimerEvent: {}
+[47.900777] (-) TimerEvent: {}
+[47.973228] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[47.977502] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[48.001010] (-) TimerEvent: {}
+[48.103217] (-) TimerEvent: {}
+[48.205352] (-) TimerEvent: {}
+[48.306341] (-) TimerEvent: {}
+[48.339022] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[48.349062] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[48.406574] (-) TimerEvent: {}
+[48.507744] (-) TimerEvent: {}
+[48.608682] (-) TimerEvent: {}
+[48.709684] (-) TimerEvent: {}
+[48.810699] (-) TimerEvent: {}
+[48.912871] (-) TimerEvent: {}
+[49.015036] (-) TimerEvent: {}
+[49.115149] (diffdrive_arduino) StdoutLine: {'line': b'-- Found controller_manager: 2.40.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[49.116041] (-) TimerEvent: {}
+[49.217800] (-) TimerEvent: {}
+[49.319722] (-) TimerEvent: {}
+[49.421546] (-) TimerEvent: {}
+[49.523364] (-) TimerEvent: {}
+[49.625404] (-) TimerEvent: {}
+[49.726526] (-) TimerEvent: {}
+[49.827825] (-) TimerEvent: {}
+[49.930702] (-) TimerEvent: {}
+[50.034590] (-) TimerEvent: {}
+[50.137212] (-) TimerEvent: {}
+[50.237987] (-) TimerEvent: {}
+[50.338841] (-) TimerEvent: {}
+[50.440207] (-) TimerEvent: {}
+[50.541715] (-) TimerEvent: {}
+[50.642668] (-) TimerEvent: {}
+[50.743854] (-) TimerEvent: {}
+[50.844671] (-) TimerEvent: {}
+[50.945599] (-) TimerEvent: {}
+[51.048219] (-) TimerEvent: {}
+[51.151639] (-) TimerEvent: {}
+[51.253873] (-) TimerEvent: {}
+[51.356803] (-) TimerEvent: {}
+[51.458967] (-) TimerEvent: {}
+[51.560689] (-) TimerEvent: {}
+[51.664541] (-) TimerEvent: {}
+[51.766300] (-) TimerEvent: {}
+[51.870313] (-) TimerEvent: {}
+[51.972538] (-) TimerEvent: {}
+[52.074376] (-) TimerEvent: {}
+[52.175561] (-) TimerEvent: {}
+[52.277963] (-) TimerEvent: {}
+[52.379813] (-) TimerEvent: {}
+[52.482011] (-) TimerEvent: {}
+[52.584140] (-) TimerEvent: {}
+[52.686253] (-) TimerEvent: {}
+[52.788032] (-) TimerEvent: {}
+[52.889714] (-) TimerEvent: {}
+[52.991213] (-) TimerEvent: {}
+[53.092983] (-) TimerEvent: {}
+[53.195325] (-) TimerEvent: {}
+[53.296968] (-) TimerEvent: {}
+[53.398647] (-) TimerEvent: {}
+[53.500800] (-) TimerEvent: {}
+[53.603216] (-) TimerEvent: {}
+[53.705041] (-) TimerEvent: {}
+[53.806180] (-) TimerEvent: {}
+[53.907973] (-) TimerEvent: {}
+[54.010207] (-) TimerEvent: {}
+[54.112463] (-) TimerEvent: {}
+[54.214813] (-) TimerEvent: {}
+[54.317113] (-) TimerEvent: {}
+[54.419475] (-) TimerEvent: {}
+[54.521613] (-) TimerEvent: {}
+[54.623394] (-) TimerEvent: {}
+[54.725190] (-) TimerEvent: {}
+[54.826328] (-) TimerEvent: {}
+[54.927421] (-) TimerEvent: {}
+[55.028523] (-) TimerEvent: {}
+[55.106956] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[55.128682] (-) TimerEvent: {}
+[55.229671] (-) TimerEvent: {}
+[55.331329] (-) TimerEvent: {}
+[55.432952] (-) TimerEvent: {}
+[55.463437] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[55.475589] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/LifeBot/robot_ws/build/diffdrive_arduino\n'}
+[55.533493] (-) TimerEvent: {}
+[55.546458] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[55.548640] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[55.548884] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/LifeBot/robot_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/LifeBot/robot_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'LifeBot'), ('SSH_CLIENT', '192.168.2.151 55650 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/LifeBot/robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/LifeBot'), ('OLDPWD', '/home/LifeBot'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fda3fe0b-e177-4d56-b792-efafe00b4734.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/LifeBot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'LifeBot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-405d37a03d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/LifeBot/robot_ws/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/LifeBot/robot_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.151 55650 192.168.2.154 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/LifeBot/robot_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[55.633760] (-) TimerEvent: {}
+[55.735270] (-) TimerEvent: {}
+[55.800825] (diffdrive_arduino) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[55.813838] (diffdrive_arduino) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o\x1b[0m\n'}
+[55.828736] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o\x1b[0m\n'}
+[55.833495] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[55.835601] (-) TimerEvent: {}
+[55.939057] (-) TimerEvent: {}
+[56.041246] (-) TimerEvent: {}
+[56.143382] (-) TimerEvent: {}
+[56.245270] (-) TimerEvent: {}
+[56.347189] (-) TimerEvent: {}
+[56.449114] (-) TimerEvent: {}
+[56.551079] (-) TimerEvent: {}
+[56.664678] (-) TimerEvent: {}
+[56.766644] (-) TimerEvent: {}
+[56.869444] (-) TimerEvent: {}
+[56.972563] (-) TimerEvent: {}
+[57.074765] (-) TimerEvent: {}
+[57.177867] (-) TimerEvent: {}
+[57.280465] (-) TimerEvent: {}
+[57.383657] (-) TimerEvent: {}
+[57.486764] (-) TimerEvent: {}
+[57.589901] (-) TimerEvent: {}
+[57.692713] (-) TimerEvent: {}
+[57.795534] (-) TimerEvent: {}
+[57.898938] (-) TimerEvent: {}
+[57.908101] (diffdrive_arduino) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o\x1b[0m\n'}
+[57.999224] (-) TimerEvent: {}
+[58.101623] (-) TimerEvent: {}
+[58.203524] (-) TimerEvent: {}
+[58.305644] (-) TimerEvent: {}
+[58.407928] (-) TimerEvent: {}
+[58.510399] (-) TimerEvent: {}
+[58.613261] (-) TimerEvent: {}
+[58.716084] (-) TimerEvent: {}
+[58.819096] (-) TimerEvent: {}
+[58.921381] (-) TimerEvent: {}
+[59.023818] (-) TimerEvent: {}
+[59.124993] (-) TimerEvent: {}
+[59.228035] (-) TimerEvent: {}
+[59.330882] (-) TimerEvent: {}
+[59.434430] (-) TimerEvent: {}
+[59.537320] (-) TimerEvent: {}
+[59.640958] (-) TimerEvent: {}
+[59.743888] (-) TimerEvent: {}
+[59.846526] (-) TimerEvent: {}
+[59.949286] (-) TimerEvent: {}
+[60.052006] (-) TimerEvent: {}
+[60.154783] (-) TimerEvent: {}
+[60.257749] (-) TimerEvent: {}
+[60.360490] (-) TimerEvent: {}
+[60.463175] (-) TimerEvent: {}
+[60.565968] (-) TimerEvent: {}
+[60.669258] (-) TimerEvent: {}
+[60.772931] (-) TimerEvent: {}
+[60.876657] (-) TimerEvent: {}
+[60.980044] (-) TimerEvent: {}
+[61.083728] (-) TimerEvent: {}
+[61.187179] (-) TimerEvent: {}
+[61.290658] (-) TimerEvent: {}
+[61.394839] (-) TimerEvent: {}
+[61.496729] (-) TimerEvent: {}
+[61.598628] (-) TimerEvent: {}
+[61.702550] (-) TimerEvent: {}
+[61.806659] (-) TimerEvent: {}
+[61.909309] (-) TimerEvent: {}
+[62.011663] (-) TimerEvent: {}
+[62.114237] (-) TimerEvent: {}
+[62.217647] (-) TimerEvent: {}
+[62.321381] (-) TimerEvent: {}
+[62.425044] (-) TimerEvent: {}
+[62.528805] (-) TimerEvent: {}
+[62.632343] (-) TimerEvent: {}
+[62.735642] (-) TimerEvent: {}
+[62.839301] (-) TimerEvent: {}
+[62.942907] (-) TimerEvent: {}
+[63.046183] (-) TimerEvent: {}
+[63.149868] (-) TimerEvent: {}
+[63.253103] (-) TimerEvent: {}
+[63.356939] (-) TimerEvent: {}
+[63.459577] (-) TimerEvent: {}
+[63.560732] (-) TimerEvent: {}
+[63.661857] (-) TimerEvent: {}
+[63.763091] (-) TimerEvent: {}
+[63.865036] (-) TimerEvent: {}
+[63.967396] (-) TimerEvent: {}
+[64.069831] (-) TimerEvent: {}
+[64.172189] (-) TimerEvent: {}
+[64.274329] (-) TimerEvent: {}
+[64.375364] (-) TimerEvent: {}
+[64.476485] (-) TimerEvent: {}
+[64.577663] (-) TimerEvent: {}
+[64.678711] (-) TimerEvent: {}
+[64.779815] (-) TimerEvent: {}
+[64.891240] (-) TimerEvent: {}
+[64.994727] (-) TimerEvent: {}
+[65.096871] (-) TimerEvent: {}
+[65.199245] (-) TimerEvent: {}
+[65.301678] (-) TimerEvent: {}
+[65.403625] (-) TimerEvent: {}
+[65.504943] (-) TimerEvent: {}
+[65.606498] (-) TimerEvent: {}
+[65.709082] (-) TimerEvent: {}
+[65.810339] (-) TimerEvent: {}
+[65.912850] (-) TimerEvent: {}
+[66.015337] (-) TimerEvent: {}
+[66.117970] (-) TimerEvent: {}
+[66.220383] (-) TimerEvent: {}
+[66.324284] (-) TimerEvent: {}
+[66.427613] (-) TimerEvent: {}
+[66.530724] (-) TimerEvent: {}
+[66.634193] (-) TimerEvent: {}
+[66.780479] (-) TimerEvent: {}
+[66.886124] (-) TimerEvent: {}
+[66.988441] (-) TimerEvent: {}
+[67.091674] (-) TimerEvent: {}
+[67.194888] (-) TimerEvent: {}
+[67.298290] (-) TimerEvent: {}
+[67.401407] (-) TimerEvent: {}
+[67.504710] (-) TimerEvent: {}
+[67.607266] (-) TimerEvent: {}
+[67.711521] (-) TimerEvent: {}
+[67.815223] (-) TimerEvent: {}
+[67.919769] (-) TimerEvent: {}
+[68.023193] (-) TimerEvent: {}
+[68.127087] (-) TimerEvent: {}
+[68.230535] (-) TimerEvent: {}
+[68.334041] (-) TimerEvent: {}
+[68.436569] (-) TimerEvent: {}
+[68.539120] (-) TimerEvent: {}
+[68.641649] (-) TimerEvent: {}
+[68.743227] (-) TimerEvent: {}
+[68.844849] (-) TimerEvent: {}
+[68.946537] (-) TimerEvent: {}
+[69.048261] (-) TimerEvent: {}
+[69.149818] (-) TimerEvent: {}
+[69.251512] (-) TimerEvent: {}
+[69.353223] (-) TimerEvent: {}
+[69.454938] (-) TimerEvent: {}
+[69.556776] (-) TimerEvent: {}
+[69.659125] (-) TimerEvent: {}
+[69.761808] (-) TimerEvent: {}
+[69.864762] (-) TimerEvent: {}
+[69.967676] (-) TimerEvent: {}
+[70.071033] (-) TimerEvent: {}
+[70.174008] (-) TimerEvent: {}
+[70.277199] (-) TimerEvent: {}
+[70.380976] (-) TimerEvent: {}
+[70.484019] (-) TimerEvent: {}
+[70.587359] (-) TimerEvent: {}
+[70.690360] (-) TimerEvent: {}
+[70.793655] (-) TimerEvent: {}
+[70.896661] (-) TimerEvent: {}
+[70.999671] (-) TimerEvent: {}
+[71.102725] (-) TimerEvent: {}
+[71.205777] (-) TimerEvent: {}
+[71.308026] (-) TimerEvent: {}
+[71.409645] (-) TimerEvent: {}
+[71.512086] (-) TimerEvent: {}
+[71.614538] (-) TimerEvent: {}
+[71.716787] (-) TimerEvent: {}
+[71.834602] (-) TimerEvent: {}
+[71.936394] (-) TimerEvent: {}
+[72.037842] (-) TimerEvent: {}
+[72.140123] (-) TimerEvent: {}
+[72.242581] (-) TimerEvent: {}
+[72.345113] (-) TimerEvent: {}
+[72.447996] (-) TimerEvent: {}
+[72.550526] (-) TimerEvent: {}
+[72.652873] (-) TimerEvent: {}
+[72.755219] (-) TimerEvent: {}
+[72.858173] (-) TimerEvent: {}
+[72.961681] (-) TimerEvent: {}
+[73.065134] (-) TimerEvent: {}
+[73.168481] (-) TimerEvent: {}
+[73.271969] (-) TimerEvent: {}
+[73.374444] (-) TimerEvent: {}
+[73.477430] (-) TimerEvent: {}
+[73.580373] (-) TimerEvent: {}
+[73.684167] (-) TimerEvent: {}
+[73.787811] (-) TimerEvent: {}
+[73.890463] (-) TimerEvent: {}
+[73.993212] (-) TimerEvent: {}
+[74.095812] (-) TimerEvent: {}
+[74.198427] (-) TimerEvent: {}
+[74.300378] (-) TimerEvent: {}
+[74.402802] (-) TimerEvent: {}
+[74.505328] (-) TimerEvent: {}
+[74.607841] (-) TimerEvent: {}
+[74.710345] (-) TimerEvent: {}
+[74.812696] (-) TimerEvent: {}
+[74.915199] (-) TimerEvent: {}
+[75.017757] (-) TimerEvent: {}
+[75.120189] (-) TimerEvent: {}
+[75.222365] (-) TimerEvent: {}
+[75.324801] (-) TimerEvent: {}
+[75.427178] (-) TimerEvent: {}
+[75.529593] (-) TimerEvent: {}
+[75.632104] (-) TimerEvent: {}
+[75.735559] (-) TimerEvent: {}
+[75.837283] (-) TimerEvent: {}
+[75.939137] (-) TimerEvent: {}
+[76.041105] (-) TimerEvent: {}
+[76.142854] (-) TimerEvent: {}
+[76.244493] (-) TimerEvent: {}
+[76.346231] (-) TimerEvent: {}
+[76.448431] (-) TimerEvent: {}
+[76.549617] (-) TimerEvent: {}
+[76.651308] (-) TimerEvent: {}
+[76.753415] (-) TimerEvent: {}
+[76.855466] (-) TimerEvent: {}
+[76.959194] (-) TimerEvent: {}
+[77.062532] (-) TimerEvent: {}
+[77.165554] (-) TimerEvent: {}
+[77.267702] (-) TimerEvent: {}
+[77.369530] (-) TimerEvent: {}
+[77.473281] (-) TimerEvent: {}
+[77.576059] (-) TimerEvent: {}
+[77.678670] (-) TimerEvent: {}
+[77.782298] (-) TimerEvent: {}
+[77.885782] (-) TimerEvent: {}
+[77.989309] (-) TimerEvent: {}
+[78.092342] (-) TimerEvent: {}
+[78.195893] (-) TimerEvent: {}
+[78.299497] (-) TimerEvent: {}
+[78.401877] (-) TimerEvent: {}
+[78.504682] (-) TimerEvent: {}
+[78.608798] (-) TimerEvent: {}
+[78.711542] (-) TimerEvent: {}
+[78.823216] (-) TimerEvent: {}
+[78.924292] (-) TimerEvent: {}
+[79.025437] (-) TimerEvent: {}
+[79.127618] (-) TimerEvent: {}
+[79.229983] (-) TimerEvent: {}
+[79.333013] (-) TimerEvent: {}
+[79.435470] (-) TimerEvent: {}
+[79.537837] (-) TimerEvent: {}
+[79.641081] (-) TimerEvent: {}
+[79.746776] (-) TimerEvent: {}
+[79.849447] (-) TimerEvent: {}
+[79.953983] (-) TimerEvent: {}
+[80.057867] (-) TimerEvent: {}
+[80.162170] (-) TimerEvent: {}
+[80.219175] (diffdrive_arduino) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libfake_robot.so\x1b[0m\n'}
+[80.262380] (-) TimerEvent: {}
+[80.364195] (-) TimerEvent: {}
+[80.466292] (-) TimerEvent: {}
+[80.578107] (-) TimerEvent: {}
+[80.683403] (-) TimerEvent: {}
+[80.761996] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[80.783630] (-) TimerEvent: {}
+[80.887870] (-) TimerEvent: {}
+[80.991752] (-) TimerEvent: {}
+[81.097395] (-) TimerEvent: {}
+[81.202047] (-) TimerEvent: {}
+[81.308092] (-) TimerEvent: {}
+[81.412482] (-) TimerEvent: {}
+[81.517208] (-) TimerEvent: {}
+[81.625138] (-) TimerEvent: {}
+[81.737142] (-) TimerEvent: {}
+[81.750704] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target fake_robot\n'}
+[81.837417] (-) TimerEvent: {}
+[81.939730] (-) TimerEvent: {}
+[82.042321] (-) TimerEvent: {}
+[82.143942] (-) TimerEvent: {}
+[82.245709] (-) TimerEvent: {}
+[82.282519] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[82.329098] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[82.346063] (-) TimerEvent: {}
+[82.447290] (-) TimerEvent: {}
+[82.495536] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[82.497103] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/LifeBot/robot_ws/build/diffdrive_arduino'], 'cwd': '/home/LifeBot/robot_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'LifeBot'), ('SSH_CLIENT', '192.168.2.151 55650 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/LifeBot/robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/LifeBot'), ('OLDPWD', '/home/LifeBot'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fda3fe0b-e177-4d56-b792-efafe00b4734.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/LifeBot/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'LifeBot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-405d37a03d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/LifeBot/robot_ws/install/serial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/LifeBot/robot_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.151 55650 192.168.2.154 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/LifeBot/robot_ws/install/serial:/opt/ros/humble')]), 'shell': False}
+[82.534868] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[82.538711] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[82.544203] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml\n'}
+[82.547526] (-) TimerEvent: {}
+[82.587701] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml\n'}
+[82.628441] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[82.647754] (-) TimerEvent: {}
+[82.682410] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[82.717974] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[82.747998] (-) TimerEvent: {}
+[82.752918] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[82.785843] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[82.819358] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[82.848231] (-) TimerEvent: {}
+[82.857441] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[82.896954] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[82.934194] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[82.948544] (-) TimerEvent: {}
+[82.969397] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[83.006240] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[83.048665] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[83.049561] (-) TimerEvent: {}
+[83.084574] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[83.118651] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[83.149899] (-) TimerEvent: {}
+[83.152180] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[83.189282] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[83.223384] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[83.250112] (-) TimerEvent: {}
+[83.255932] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[83.295634] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[83.338299] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[83.350361] (-) TimerEvent: {}
+[83.380777] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[83.418360] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[83.450600] (-) TimerEvent: {}
+[83.464546] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[83.501692] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[83.535350] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/LifeBot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[83.550851] (-) TimerEvent: {}
+[83.581144] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[83.651130] (-) TimerEvent: {}
+[83.752222] (-) TimerEvent: {}
+[83.854821] (-) TimerEvent: {}
+[83.893672] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[83.898733] (-) EventReactorShutdown: {}

@@ -1,0 +1,27 @@
+[0.064s] Invoking command in '/home/LifeBot/robot_ws/build/diffdrive_arduino': /usr/bin/cmake /home/LifeBot/robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/LifeBot/robot_ws/install/diffdrive_arduino
+[0.453s] -- The CXX compiler identification is GNU 11.4.0
+[0.516s] -- Detecting CXX compiler ABI info
+[0.979s] -- Detecting CXX compiler ABI info - done
+[1.009s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.010s] -- Detecting CXX compile features
+[1.013s] -- Detecting CXX compile features - done
+[1.150s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[1.150s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.151s]   has asked CMake to find a package configuration file provided by
+[1.151s]   "ament_cmake", but CMake did not find one.
+[1.152s] 
+[1.153s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.154s]   any of the following names:
+[1.155s] 
+[1.155s]     ament_cmakeConfig.cmake
+[1.156s]     ament_cmake-config.cmake
+[1.156s] 
+[1.157s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.158s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.159s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.159s]   has been installed.
+[1.160s] 
+[1.160s] [0m
+[1.160s] -- Configuring incomplete, errors occurred!
+[1.161s] See also "/home/LifeBot/robot_ws/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".
+[1.172s] Invoked command in '/home/LifeBot/robot_ws/build/diffdrive_arduino' returned '1': /usr/bin/cmake /home/LifeBot/robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/LifeBot/robot_ws/install/diffdrive_arduino

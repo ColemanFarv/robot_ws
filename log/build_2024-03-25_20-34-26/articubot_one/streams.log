@@ -1,0 +1,33 @@
+[0.051s] Invoking command in '/home/LifeBot/robot_ws/build/articubot_one': /usr/bin/cmake /home/LifeBot/robot_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/LifeBot/robot_ws/install/articubot_one
+[0.414s] -- The C compiler identification is GNU 11.4.0
+[0.766s] -- The CXX compiler identification is GNU 11.4.0
+[0.812s] -- Detecting C compiler ABI info
+[1.248s] -- Detecting C compiler ABI info - done
+[1.297s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.298s] -- Detecting C compile features
+[1.299s] -- Detecting C compile features - done
+[1.317s] -- Detecting CXX compiler ABI info
+[1.756s] -- Detecting CXX compiler ABI info - done
+[1.803s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.804s] -- Detecting CXX compile features
+[1.805s] -- Detecting CXX compile features - done
+[1.956s] -- Configuring incomplete, errors occurred!
+[1.957s] See also "/home/LifeBot/robot_ws/build/articubot_one/CMakeFiles/CMakeOutput.log".
+[1.968s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.969s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.970s]   has asked CMake to find a package configuration file provided by
+[1.970s]   "ament_cmake", but CMake did not find one.
+[1.971s] 
+[1.972s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.973s]   any of the following names:
+[1.973s] 
+[1.974s]     ament_cmakeConfig.cmake
+[1.975s]     ament_cmake-config.cmake
+[1.976s] 
+[1.976s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.977s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.981s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.982s]   has been installed.
+[1.982s] 
+[1.983s] [0m
+[1.984s] Invoked command in '/home/LifeBot/robot_ws/build/articubot_one' returned '1': /usr/bin/cmake /home/LifeBot/robot_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/LifeBot/robot_ws/install/articubot_one

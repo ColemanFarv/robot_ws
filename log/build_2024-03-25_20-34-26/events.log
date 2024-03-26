@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.001549] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.002497] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.003149] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/LifeBot/robot_ws/install/serial')])}
+[0.003422] (serial) JobStarted: {'identifier': 'serial'}
+[0.022848] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.041505] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.043574] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/LifeBot/robot_ws/src/serial', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/LifeBot/robot_ws/install/serial'], 'cwd': '/home/LifeBot/robot_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'LifeBot'), ('SSH_CLIENT', '192.168.2.151 55650 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/LifeBot'), ('OLDPWD', '/home/LifeBot'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fda3fe0b-e177-4d56-b792-efafe00b4734.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LOGNAME', 'LifeBot'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('PATH', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-405d37a03d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/LifeBot/robot_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.151 55650 192.168.2.154 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.062742] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.065532] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/home/LifeBot/robot_ws/src/articubot_one', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/LifeBot/robot_ws/install/articubot_one'], 'cwd': '/home/LifeBot/robot_ws/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'LifeBot'), ('SSH_CLIENT', '192.168.2.151 55650 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/LifeBot'), ('OLDPWD', '/home/LifeBot'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-fda3fe0b-e177-4d56-b792-efafe00b4734.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LOGNAME', 'LifeBot'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('PATH', '/home/LifeBot/.vscode-server/cli/servers/Stable-863d2581ecda6849923a2118d93a088b0745d9d6/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-405d37a03d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/LifeBot/robot_ws/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.151 55650 192.168.2.154 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.098310] (-) TimerEvent: {}
+[0.199274] (-) TimerEvent: {}
+[0.300884] (-) TimerEvent: {}
+[0.391962] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401144] (-) TimerEvent: {}
+[0.436770] (articubot_one) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501424] (-) TimerEvent: {}
+[0.602651] (-) TimerEvent: {}
+[0.703693] (-) TimerEvent: {}
+[0.743944] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.788687] (articubot_one) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.789573] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.803907] (-) TimerEvent: {}
+[0.835422] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.904285] (-) TimerEvent: {}
+[1.005973] (-) TimerEvent: {}
+[1.106964] (-) TimerEvent: {}
+[1.207806] (-) TimerEvent: {}
+[1.240121] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.270872] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.292364] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.294903] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.297634] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.308036] (-) TimerEvent: {}
+[1.314946] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.320026] (articubot_one) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.320944] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.322576] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.339911] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.408247] (-) TimerEvent: {}
+[1.509837] (-) TimerEvent: {}
+[1.612141] (-) TimerEvent: {}
+[1.714699] (-) TimerEvent: {}
+[1.763745] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.778702] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.803508] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.804610] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.806550] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.814887] (-) TimerEvent: {}
+[1.825523] (articubot_one) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.826946] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.828374] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.915091] (-) TimerEvent: {}
+[1.941239] (serial) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[1.942794] (serial) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.943422] (serial) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.949635] (serial) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.950456] (serial) StderrLine: {'line': b'\n'}
+[1.950969] (serial) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.951539] (serial) StderrLine: {'line': b'  any of the following names:\n'}
+[1.952095] (serial) StderrLine: {'line': b'\n'}
+[1.952735] (serial) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.954074] (serial) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.955205] (serial) StderrLine: {'line': b'\n'}
+[1.956594] (serial) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.958658] (serial) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.959400] (serial) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.969178] (serial) StderrLine: {'line': b'  has been installed.\n'}
+[1.971778] (serial) StderrLine: {'line': b'\n'}
+[1.973133] (serial) StderrLine: {'line': b'\x1b[0m\n'}
+[1.975087] (serial) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.976447] (serial) StdoutLine: {'line': b'See also "/home/LifeBot/robot_ws/build/serial/CMakeFiles/CMakeOutput.log".\n'}
+[1.977200] (serial) CommandEnded: {'returncode': 1}
+[1.979125] (articubot_one) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.980106] (articubot_one) StdoutLine: {'line': b'See also "/home/LifeBot/robot_ws/build/articubot_one/CMakeFiles/CMakeOutput.log".\n'}
+[1.981271] (articubot_one) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (find_package):\n'}
+[1.991858] (articubot_one) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.992836] (articubot_one) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.993498] (articubot_one) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.994318] (articubot_one) StderrLine: {'line': b'\n'}
+[1.995119] (articubot_one) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.995862] (articubot_one) StderrLine: {'line': b'  any of the following names:\n'}
+[1.996516] (articubot_one) StderrLine: {'line': b'\n'}
+[1.997199] (articubot_one) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.998089] (articubot_one) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.998795] (articubot_one) StderrLine: {'line': b'\n'}
+[1.999495] (articubot_one) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[2.000327] (articubot_one) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[2.001222] (articubot_one) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[2.004496] (articubot_one) StderrLine: {'line': b'  has been installed.\n'}
+[2.005362] (articubot_one) StderrLine: {'line': b'\n'}
+[2.006020] (articubot_one) StderrLine: {'line': b'\x1b[0m\n'}
+[2.006659] (articubot_one) CommandEnded: {'returncode': 1}
+[2.015797] (-) TimerEvent: {}
+[2.110135] (serial) JobEnded: {'identifier': 'serial', 'rc': 1}
+[2.113534] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 'SIGINT'}
+[2.119283] (-) TimerEvent: {}
+[2.123367] (diffdrive_arduino) JobSkipped: {'identifier': 'diffdrive_arduino'}
+[2.123714] (-) EventReactorShutdown: {}

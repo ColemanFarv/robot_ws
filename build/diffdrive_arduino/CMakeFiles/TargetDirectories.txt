@@ -1,0 +1,10 @@
+/home/LifeBot/robot_ws/build/diffdrive_arduino/CMakeFiles/uninstall.dir
+/home/LifeBot/robot_ws/build/diffdrive_arduino/CMakeFiles/diffdrive_arduino_uninstall.dir
+/home/LifeBot/robot_ws/build/diffdrive_arduino/CMakeFiles/diffdrive_arduino.dir
+/home/LifeBot/robot_ws/build/diffdrive_arduino/CMakeFiles/test.dir
+/home/LifeBot/robot_ws/build/diffdrive_arduino/CMakeFiles/edit_cache.dir
+/home/LifeBot/robot_ws/build/diffdrive_arduino/CMakeFiles/rebuild_cache.dir
+/home/LifeBot/robot_ws/build/diffdrive_arduino/CMakeFiles/list_install_components.dir
+/home/LifeBot/robot_ws/build/diffdrive_arduino/CMakeFiles/install.dir
+/home/LifeBot/robot_ws/build/diffdrive_arduino/CMakeFiles/install/local.dir
+/home/LifeBot/robot_ws/build/diffdrive_arduino/CMakeFiles/install/strip.dir
